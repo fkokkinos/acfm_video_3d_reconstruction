@@ -18,11 +18,8 @@ For setup and installation refer to [docs/install.md](docs/install.md) instructi
 ## Setup Evaluation and Training
 We have separate folder for video and monocular based training.
 
-For ease of access we provide python scripts that can generate slurm scripts that can be used to generate the results in the paper.
-
-* Downloading pre-trained model and annotations. Follow setup instructions [here](docs/setup.md)
-
-* Training from scratch.  Follow setup instructions [here](docs/setup.md)
+* To train from scratch follow instructions for [monocular training](docs/setup_monocular.md) and [video training](docs/setup_video.md).
+* For evaluation please follow instructions for [birds](docs/setup_monocular.md) and [quadrupeds](docs/setup_video.md).
 
 
 ## Citation
